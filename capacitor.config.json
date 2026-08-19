@@ -1,0 +1,22 @@
+{
+  "appId": "com.rawat.ai.assistant",
+  "appName": "RAWAT AI",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#030712",
+      "showSpinner": false
+    }
+  }
+}
